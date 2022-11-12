@@ -1,0 +1,19 @@
+﻿<Application x:Class="MangoApps_WPF_API.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:MangoApps_WPF_API"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Themes/Light.blue.xaml" />
+
+            </ResourceDictionary.MergedDictionaries>
+            <SolidColorBrush x:Key="MahApps.Brushes.WindowTitle" 
+                             Color="#FF15ADE2"  />
+            <SolidColorBrush x:Key="MahApps.Brushes.Accent" 
+                             Color="#FF15ADE2"  />
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
