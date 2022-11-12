@@ -75,7 +75,7 @@
                 </StackPanel>
 
                 <TextBox Text="{Binding DomainURL, Mode=TwoWay,
-                UpdateSourceTrigger=PropertyChanged}"  ></TextBox>
+                UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}"  ></TextBox>
             </StackPanel>
             <StackPanel Orientation="Horizontal" Margin="10">
                 <CheckBox   x:Name="chkRememberMe" ></CheckBox>

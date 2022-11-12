@@ -116,13 +116,12 @@ namespace MangoApps_WPF_API.ViewModel
                         //{
                         //    GenerateDomainURL( LoginId);
                         //}
-                        break;   
-
+                        break;    
                     case nameof(Password):
-                        if(string.IsNullOrWhiteSpace(Password)) break;
-                        if (! (Password?.Length > 5 && Password?.Length < 25))
+                        if (string.IsNullOrWhiteSpace(Password)) break;
+                        if (!(Password?.Length > 5 && Password?.Length < 25))
                         {
-                            error = "The Password must be greater than 5 and less than 25 characters.";  
+                            error = "The Password must be greater than 5 and less than 25 characters.";
                         }
                         break;
                 }
