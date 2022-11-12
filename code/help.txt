@@ -1,0 +1,18 @@
+Create a login screen with RestAPI handling
+
+1) Validation and auto-generate domain URL from email id.. https://hub.mangoapps.com/sf/MTcxNDcyXzE3NDkzMjI
+2) Use login API https://alivance.mangoapps.com/apidoc for authentication... Sample request:- https://hub.mangoapps.com/sf/MTc4NDQ5XzE4MDAwNTk
+3) After Login show success message dialog "Successful Login"
+3) Error Handling:- Show message dialog with an error message https://hub.mangoapps.com/sf/MTc4NDUzXzE4MDAwNjg
+4) UI:- https://hub.mangoapps.com/sf/MTcxNDcyXzE3NDkzMjI
+5) with MVVM pattern
+
+Color Code:- #FF15ADE2
+
+Icons:- https://hub.mangoapps.com/sf/MTcxNDc4XzE3NDkzNDI
+
+ID:- vijayg@mangospring.com
+Password:- temp1234
+Domain URL:- https://newmango1.mangopulse.com
+API URL :- https://newmango1.mangopulse.com/api/login.json
+API_key :- MangoWindowsMessenger
